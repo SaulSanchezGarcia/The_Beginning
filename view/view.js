@@ -71,13 +71,8 @@ function insert(){
 }
 
 function delet(idCUSTOMER){
-<<<<<<< HEAD
-    let confirmacion = confirm("Desea eliminar al cliente?");
-    if(confirmacion){
-=======
-    alert(idCUSTOMER);
+
     if(confirm("Desea eliminar al usuario...")){
->>>>>>> master
         $.ajax({
             url: "../controller/controller.php?accion=delete",
             type: "post",
