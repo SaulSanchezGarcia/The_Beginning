@@ -7,6 +7,7 @@ $('#myModal').on('shown.bs.modal', function () {
 //Hola Mundo
 //se edito el master perras
 //este es otro comentario desde otra branch
+//Ya sabemos git a la vrga
 function login(){
     
     let user_name = $("#user_name").val();
