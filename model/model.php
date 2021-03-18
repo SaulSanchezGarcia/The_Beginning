@@ -123,7 +123,7 @@ class Model{
         $conn = new ConectarDB();
         $conection = $conn->conectar();
 
-        $idCUSTOMER = $_REQUEST['idCUSTOMER'];
+        $idCUSTOMER = $_POST['idCUSTOMER'];
         $sql = "DELETE FROM customers WHERE idCUSTOMER = '$idCUSTOMER'";
         $result = mysqli_query($conection,$sql);
 

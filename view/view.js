@@ -82,6 +82,7 @@ function delet(idCUSTOMER){
             url: "../controller/controller.php?accion=delete",
             type: "post",
             data: {idCUSTOMER:idCUSTOMER},
+            async: true,
             success: function(){
                 alert("SE ELIMINO");
                 $("#tbodyDelete").load(" #tbodyDelete");
@@ -90,9 +91,13 @@ function delet(idCUSTOMER){
                 console.log(textStatus, errorThrown);
             }
         });
+        
     }else{
         alert("No se elimino a nadie");
     }
 }
 
+function update(){
+    
+}
 
