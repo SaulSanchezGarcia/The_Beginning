@@ -97,7 +97,5 @@ function delet(idCUSTOMER){
     }
 }
 
-function update(){
-    
-}
+
 
